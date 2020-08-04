@@ -87,7 +87,6 @@ namespace Multiplikationsspel
             BoxLogic();
             time.Reset();
             time.Start();
-            multtable.RemoveRange(1, 64);
         }
 
         private void Form1_KeyDown(object sender, KeyEventArgs e)
